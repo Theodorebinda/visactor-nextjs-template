@@ -9,3 +9,9 @@ export type TicketMetric = {
   type: "created" | "resolved";
   count: number;
 };
+
+// export type TicketMetric = {
+//   date: string;
+//   type: "created" | "resolved";
+//   count: number;
+// };
