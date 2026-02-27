@@ -44,6 +44,7 @@ const generateSpec = (data: TicketMetric[]): IBarChartSpec => ({
 });
 // This component renders a bar chart showing the average number of tickets created over time.
 // It uses the VChart library to create a bar chart, and the data is sourced from a Jotai atom called `ticketChartDataAtom`.
+// The `generateSpec` function takes the ticket data and constructs a specification object for the VChart, defining how the chart should be rendered, including the fields for the x and y axes, the series field for differentiating between created and resolved tickets, and styling options for the bars and tooltips.
 export default function Chart() {
   const ticketChartData = useAtomValue(ticketChartDataAtom);
   const spec = generateSpec(ticketChartData);
