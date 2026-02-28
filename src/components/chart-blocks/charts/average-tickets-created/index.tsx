@@ -38,11 +38,11 @@ export default function AverageTicketsCreated() {
             value={avgCreated}
             color="#60C2FB"
           />
-          {/* <MetricCard
+          <MetricCard
             title="Avg. Tickets Resolved"
             value={avgResolved}
             color="#3161F8"
-          /> */}
+          />
         </div>
         <div className="relative h-96 min-w-[320px] flex-1">
           <Chart />
