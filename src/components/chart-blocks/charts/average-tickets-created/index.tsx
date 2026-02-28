@@ -45,7 +45,7 @@ export default function AverageTicketsCreated() {
           /> */}
         </div>
         <div className="relative h-96 min-w-[320px] flex-1">
-          {/* <Chart /> */}
+          <Chart />
         </div>
       </div>
     </section>
