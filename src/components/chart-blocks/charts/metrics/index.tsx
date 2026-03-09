@@ -8,6 +8,11 @@ export default function Metrics() {
       {metrics.map((metric) => (
         <MetricCard key={metric.title} {...metric} />
       ))}
+      <div className="flex items-center justify-center rounded-lg border border-border bg-secondary p-4">
+        <p className="text-sm text-muted-foreground">
+          More metrics coming soon...
+        </p>
+      </div>
     </Container>
   );
 }
