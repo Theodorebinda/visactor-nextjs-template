@@ -8,6 +8,6 @@ export default function Metrics() {
       {metrics.map((metric) => (
         <MetricCard key={metric.title} {...metric} />
       ))}
-    </Container>
+    {/* </Container> */}
   );
 }
