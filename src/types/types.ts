@@ -10,8 +10,8 @@ export type TicketMetric = {
   count: number;
 };
 
-export type TicketMetric = {
-  date: string;
-  type: "created" | "resolved";
-  count: number;
-};
+// export type TicketMetric = {
+//   date: string;
+//   type: "created" | "resolved";
+//   count: number;
+// };
