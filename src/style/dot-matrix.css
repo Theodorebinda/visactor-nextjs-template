@@ -1,4 +1,4 @@
-/* .dot-matrix {
+.dot-matrix {
   background-size: 8px 8px;
   background-color: transparent;
   mask-image: radial-gradient(
@@ -10,4 +10,4 @@
     oklch(from hsl(var(--foreground)) l c h / 40%) 0.5px,
     transparent 0.5px
   );
-} */
+}
