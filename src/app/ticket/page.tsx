@@ -1,3 +1,3 @@
-// export default function TicketPage() {
-//   return <section></section>;
-// }
+export default function TicketPage() {
+  return <section></section>;
+}
